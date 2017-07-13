@@ -50,7 +50,7 @@ int main()
   PID pid_throttle;
 
 #if PID_thro
-  pid_throttle.Init(0.45, 0.001, 0.5);
+  pid_throttle.Init(0.45, 0.000, 0.5);
 #endif
 
   h.onMessage([&pid_steer, &pid_throttle](uWS::WebSocket<uWS::SERVER> ws, char *data, size_t length, uWS::OpCode opCode) {
