@@ -7,8 +7,8 @@ in a game simulator. The simulator provides cross-track error (CTE) via websocke
 to drive the car reliably around the simulator track.
 
 
-#### Demo 1: Steady drive with constant throttle 
-(click to see the full video)
+#### Demo 1: Steady drive with constant throttle (click to see the full video)
+
 [![demo_gif1][gif1]](https://youtu.be/bI5RTZcRMAo)
 
 
@@ -90,8 +90,8 @@ select the PID Controller.
 * [clean.sh](clean.sh) cleans the project.
 * [build.sh](build.sh) builds the project.
 * [run.sh](run.sh) runs the project.
-* [install-mac](install-mac.sh) install uWebSockets in Mac.
-* [install-ubuntu](install-ubuntu.sh) install uWebSockets in Ubuntu.
+* [libs](libs) scripts to install uWebSockets.
+
 
 
 ### 4. Code Style
